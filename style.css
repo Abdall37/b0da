@@ -1,0 +1,92 @@
+body{
+    background-color:darkslategrey;
+}
+
+
+
+h1{
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #5da1, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
+
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align:center;
+    text-decoration:double;
+  }
+  
+  .fa:hover {
+    opacity: 1;
+  }
+    
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+   .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+img{
+    width: 500px;
+    display: flex;
+}
+.noon{
+    margin-left: 50%;
+    margin-top: -700px;
+
+}
+.gol{
+    margin-left: 600px;
+    padding-top: -500px;
+    font-size: 50px;
+    text-shadow: 0 0 20px #fff, 0 0 30px #5da1, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+
+  pre {
+    font-weight: bold;
+    border: 2px solid green;
+    background: #669999;
+    padding: 5px;
+}
+.vol{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+
+}
+.we{
+    font-size:20px ;
+    text-shadow: 0 0 10px #fff, 0 0 20px rgba(0, 0, 0, 0), 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px red, 0 0 70px #e60073;
+}
+  
+
+
